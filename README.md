@@ -2,7 +2,8 @@
 
 #### Vivek Hariharan, 2024-12-17
 
-This R script is used to generate a rarefaction curve for sequence clonality. 
+This R script is used to generate a rarefaction curve for sequence clonality based on **nucleotide** sequences.
+
 The idea behind this code is that sequences are first randomized, and then the number of unique sequences is counted as a function of the number of sequences sampled. This process is repeated 100 times (or greater, depending on the user specification) to get a mean and standard deviation for the number of unique sequences as a function of the number of sequences sampled. 
 
 ## How to use
