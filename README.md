@@ -15,8 +15,9 @@ The input is a pre-aligned FASTA or FAS file where every sequence is the same le
 
 ## Output
 
-The output is a rarefaction curve that shows the number of unique sequences as a function of the number of sequences sampled. A dashed, red line is also plotted to show y=x, as if every sequence was unique. The code an easily be modified to output the final plots as a PDF or PNG file.
-The black ribbon around the curve represents the standard deviation of the 100 repetitions.
+The output is a figure composed of two subfigures. The first figure is the rarefaction curve that shows the number of unique sequences as a function of the number of sequences sampled. A dashed, red line is also plotted to show y=x, as if every sequence was unique. The black ribbon around the curve represents the standard deviation of the 100 repetitions.
+The second figure is the slope of the rarefaction curve. We expect the slope to decrease to zero as the number of sequences sampled increases. 
+
 
 ## Example
 
